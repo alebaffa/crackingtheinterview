@@ -46,7 +46,7 @@ def read_line():
     a, b = int(a), int(b)
     return a, b
     
-def load(n):
+def load(m):
     graph = {}
     for i in range(m):
         a, b = read_line()
@@ -82,7 +82,7 @@ def prune(node):
     return tot
 
 n, m = read_line()
-graph = load(n)
+graph = load(m)
 # print graph
 if n%2 == 1:
     print 0
